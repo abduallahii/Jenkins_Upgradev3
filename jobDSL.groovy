@@ -1,5 +1,5 @@
 job('FirstMaven-DSL'){
-    descreption("frist maven dsl on ${new Date()}")
+    description("frist maven dsl on ${new Date()} , the project is a small Maven project hosted on github")
     scm {
         git("https://github.com/abduallahii/Jenkins_Upgradev3.git",master)
     }
