@@ -3,7 +3,7 @@ job('FirstMaven-DSL'){
     scm {
         git("https://github.com/abduallahii/Jenkins_Upgradev3.git",'master')
     }
-    triggrs {
+    triggers {
         scm('* * * * *')
     }
     steps {
